@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test CalculatorTest" tests="6" skipped="3" failures="0" errors="0" timestamp="2021-06-28T09:42:42" hostname="DESKTOP-98SKGNL" time="0.024">
+  <properties/>
+  <testcase name="Test CalculatorTest.testAborted" classname="balajar.kotlin.unit.test.CalculatorTest" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase name="Test CalculatorTest.testDivideFailed" classname="balajar.kotlin.unit.test.CalculatorTest" time="0.004"/>
+  <testcase name="Test CalculatorTest.testAddSucceed" classname="balajar.kotlin.unit.test.CalculatorTest" time="0.002"/>
+  <testcase name="Test CalculatorTest.testComingSong" classname="balajar.kotlin.unit.test.CalculatorTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Test CalculatorTest.testAssumptions" classname="balajar.kotlin.unit.test.CalculatorTest" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase name="Test CalculatorTest.testDivideSucceed" classname="balajar.kotlin.unit.test.CalculatorTest" time="0.003"/>
+  <system-out><![CDATA[Sebelum semua unit test
+Sebelum Unit Test
+Seteletah Unit Test
+Sebelum Unit Test
+Unit Test testDivideFailed
+Seteletah Unit Test
+Sebelum Unit Test
+Unit Test testAddSuccess
+Seteletah Unit Test
+Sebelum Unit Test
+Seteletah Unit Test
+Sebelum Unit Test
+Unit Test testDivideSuccess
+Seteletah Unit Test
+Setelah semua unit test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

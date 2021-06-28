@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="balajar.kotlin.unit.test.ConditionalTest" tests="9" skipped="4" failures="0" errors="0" timestamp="2021-06-28T09:42:42" hostname="DESKTOP-98SKGNL" time="0.026">
+  <properties/>
+  <testcase name="enabledOnDev()" classname="balajar.kotlin.unit.test.ConditionalTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="onlyRunOnJava8()" classname="balajar.kotlin.unit.test.ConditionalTest" time="0.001"/>
+  <testcase name="disabledOnWindows()" classname="balajar.kotlin.unit.test.ConditionalTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="printSystemProperties()" classname="balajar.kotlin.unit.test.ConditionalTest" time="0.007"/>
+  <testcase name="disabledOnDev()" classname="balajar.kotlin.unit.test.ConditionalTest" time="0.001"/>
+  <testcase name="disabledOnOracle()" classname="balajar.kotlin.unit.test.ConditionalTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="enabledOnWindowsOrLinux()" classname="balajar.kotlin.unit.test.ConditionalTest" time="0.0"/>
+  <testcase name="disabledRunOnJava8()" classname="balajar.kotlin.unit.test.ConditionalTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="enabledOnOracle()" classname="balajar.kotlin.unit.test.ConditionalTest" time="0.001"/>
+  <system-out><![CDATA[sun.cpu.isalist => amd64
+sun.desktop => windows
+sun.io.unicode.encoding => UnicodeLittle
+sun.cpu.endian => little
+java.vendor.url.bug => http://bugreport.sun.com/bugreport/
+file.separator => \
+org.gradle.test.worker => 17
+java.vendor => Oracle Corporation
+sun.boot.class.path => C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes
+java.ext.dirs => C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+java.version => 1.8.0_291
+java.vm.info => mixed mode
+awt.toolkit => sun.awt.windows.WToolkit
+user.language => en
+java.specification.vendor => Oracle Corporation
+sun.java.command => worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 17'
+java.home => C:\Program Files\Java\jdk1.8.0_291\jre
+sun.arch.data.model => 64
+java.vm.specification.version => 1.8
+java.class.path => C:\Users\fuada\IdeaProjects\LearnJUnit5\build\classes\java\test;C:\Users\fuada\IdeaProjects\LearnJUnit5\build\classes\kotlin\test;C:\Users\fuada\IdeaProjects\LearnJUnit5\build\resources\test;C:\Users\fuada\IdeaProjects\LearnJUnit5\build\classes\java\main;C:\Users\fuada\IdeaProjects\LearnJUnit5\build\classes\kotlin\main;C:\Users\fuada\IdeaProjects\LearnJUnit5\build\resources\main;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk8\1.5.0\65fbc439df2e4aad1f3769762d54534f1b564090\kotlin-stdlib-jdk8-1.5.0.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.5.0\f61904618ea7be07a66e0545ffe8dc2c70a19b77\kotlin-stdlib-jdk7-1.5.0.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.5.0\29dae2501ca094416d15af0e21470cb634780444\kotlin-stdlib-1.5.0.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.mockito\mockito-junit-jupiter\3.5.13\c06e9d5514c82f27707693a4195182415874f0d4\mockito-junit-jupiter-3.5.13.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-params\5.6.2\f2a64a42cf73077062c2386db0598062b7480d91\junit-jupiter-params-5.6.2.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-engine\5.6.2\c0833bd6de29dd77f8d071025b97b8b434308cd3\junit-jupiter-engine-5.6.2.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-api\5.6.2\c9ba885abfe975cda123bf6f8f0a69a1b46956d0\junit-jupiter-api-5.6.2.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-engine\1.6.2\1752cad2579e20c2b224602fe846fc660fb35805\junit-platform-engine-1.6.2.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-commons\1.6.2\7644a14b329e76b5fe487628b50fb5eab6ba7d26\junit-platform-commons-1.6.2.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter\5.6.2\b5c481685b6a8ca91c0d46f28f886a444354daa5\junit-jupiter-5.6.2.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.5.0\4080d69efca5e39e9b4972f125e40f1607bd6460\kotlin-stdlib-common-1.5.0.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.mockito\mockito-core\3.5.13\4e99d47fe55166bc9017d7aaf7ecaf6183f54121\mockito-core-3.5.13.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.apiguardian\apiguardian-api\1.1.0\fc9dff4bb36d627bdc553de77e1f17efd790876c\apiguardian-api-1.1.0.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.opentest4j\opentest4j\1.2.0\28c11eb91f9b6d8e200631d46e20a7f407f2a046\opentest4j-1.2.0.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy\1.10.15\259957c76d345cb3db5411f57a0654300aaca04c\byte-buddy-1.10.15.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.10.15\7f0cc687ee3177fd451d17b9b80325a8cdd1c7ff\byte-buddy-agent-1.10.15.jar;C:\Users\fuada\.gradle\caches\modules-2\files-2.1\org.objenesis\objenesis\3.1\48f12deaae83a8dfc3775d830c9fd60ea59bbbca\objenesis-3.1.jar
+user.name => fuada
+file.encoding => windows-1252
+java.specification.version => 1.8
+java.awt.printerjob => sun.awt.windows.WPrinterJob
+user.timezone => Asia/Bangkok
+user.home => C:\Users\fuada
+os.version => 10.0
+sun.management.compiler => HotSpot 64-Bit Tiered Compilers
+org.gradle.native => false
+java.specification.name => Java Platform API Specification
+java.class.version => 52.0
+java.library.path => C:\Program Files\Java\jdk1.8.0_291\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\Java\jre1.8.0_291\bin;C:\Users\fuada\AppData\Local\Microsoft\WindowsApps;;.
+sun.jnu.encoding => Cp1252
+os.name => Windows 10
+user.variant => 
+java.vm.specification.vendor => Oracle Corporation
+java.io.tmpdir => C:\Users\fuada\AppData\Local\Temp\
+line.separator => 
+
+java.endorsed.dirs => C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed
+os.arch => amd64
+java.awt.graphicsenv => sun.awt.Win32GraphicsEnvironment
+java.runtime.version => 1.8.0_291-b10
+java.vm.specification.name => Java Virtual Machine Specification
+user.dir => C:\Users\fuada\IdeaProjects\LearnJUnit5
+user.script => 
+sun.java.launcher => SUN_STANDARD
+user.country => ID
+sun.os.patch.level => 
+java.vm.name => Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg => sun.io
+path.separator => ;
+java.vm.vendor => Oracle Corporation
+java.vendor.url => http://java.oracle.com/
+sun.boot.library.path => C:\Program Files\Java\jdk1.8.0_291\jre\bin
+java.vm.version => 25.291-b10
+java.runtime.name => Java(TM) SE Runtime Environment
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

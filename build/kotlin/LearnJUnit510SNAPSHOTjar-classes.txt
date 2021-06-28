@@ -1,0 +1,1 @@
+C:\Users\fuada\IdeaProjects\LearnJUnit5\build\classes\kotlin\main\belajar\kotlin\unit\test\App.class;C:\Users\fuada\IdeaProjects\LearnJUnit5\build\classes\kotlin\main\belajar\kotlin\unit\test\AppKt.class;C:\Users\fuada\IdeaProjects\LearnJUnit5\build\classes\kotlin\main\belajar\kotlin\unit\test\Calculator.class
